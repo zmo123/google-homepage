@@ -1,0 +1,110 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+
+#top_right {
+  position: absolute;
+  visibility: visible;
+  left: 90em;
+  top:9px;
+}
+
+#top_left{
+  position: absolute;
+  top:9px;
+}
+
+#google_app_image {
+  position:absolute;
+  left: 100em;
+  top: -3px;
+}
+
+#account {
+  position: absolute;
+  left: 105em;
+  top:-3px;
+}
+
+#notification {
+  position: absolute;
+  left: 110em;
+  top:2px;
+
+}
+
+#bottom_left {
+  position: absolute;
+  bottom: 1em;
+  z-index: 5;
+}
+
+
+#bottom_right {
+  position: absolute;
+  z-index: 5;
+  bottom: 1em;
+  left: 100em
+
+}
+
+form {
+  position: absolute;
+  bottom:33em;
+  left:39em;
+}
+
+input {
+  width: 150%;
+}
+
+.border{
+  background:grey;
+  position: absolute;
+  height:50px;
+  width:3000px;
+  bottom:0em;
+  right:0em;
+  border-style: line;
+  z-index: 0;
+
+}
+
+#submit1{
+  width: 50%;
+  height: auto;
+  position: relative;
+  top:3em;
+  left:0em;
+  text-align: center;
+}
+
+#submit2{
+  width: 50%;
+  height: auto;
+  position: relative;
+  top:1.4em;
+  left:30em;
+  text-align: center;
+}
+
+#text {
+  word-spacing: 30px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
